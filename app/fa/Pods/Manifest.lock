@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DSBarChart (0.4.0)
+  - Google-Maps-iOS-Utils (3.2.1):
+    - Google-Maps-iOS-Utils/Clustering (= 3.2.1)
+    - Google-Maps-iOS-Utils/Geometry (= 3.2.1)
+    - Google-Maps-iOS-Utils/Heatmap (= 3.2.1)
+    - Google-Maps-iOS-Utils/QuadTree (= 3.2.1)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (3.2.1):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (3.2.1):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (3.2.1):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (3.2.1):
+    - GoogleMaps
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - DSBarChart (~> 0.4.0)
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DSBarChart
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DSBarChart: a065a2feb580994c443446cd858f157c17079df1
+  Google-Maps-iOS-Utils: 1f1d9acb04f2211bcfd65659902eef7c9ba26028
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+
+PODFILE CHECKSUM: 9fa5d839843af95bd1ccab31f999a44fd54fbf3e
+
+COCOAPODS: 1.9.3
