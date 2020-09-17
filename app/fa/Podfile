@@ -6,7 +6,7 @@ target 'fa' do
   # use_frameworks!
 
   # Pods for fa
-  pod 'AFNetworking', '~> 3.0'
+  pod 'AFNetworking', '~> 3.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
   pod 'DSBarChart', '~> 0.4.0'
