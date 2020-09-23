@@ -13,7 +13,9 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import "ChatViewController.h"
 @import GoogleMaps;
+@import UIKit;
+@import WebKit;
 
-@interface MapViewController : ViewController <UIWebViewDelegate,GMSMapViewDelegate>
+@interface MapViewController : ViewController <WKUIDelegate,GMSMapViewDelegate>
 @property (strong, nonatomic) NSString *demoString;
 @end

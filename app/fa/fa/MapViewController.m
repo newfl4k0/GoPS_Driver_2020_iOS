@@ -7,6 +7,8 @@
 //
 
 #import "MapViewController.h"
+@import UIKit;
+@import WebKit;
 
 @interface MapViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *clientLabel;
@@ -42,7 +44,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *startAddressLabel;
 @property (weak, nonatomic) IBOutlet UILabel *endAddressLabel;
 @property (strong, nonatomic) NSMutableArray *gmsmarkerArray;
-@property (weak, nonatomic) IBOutlet UIWebView *webController;
+@property (weak, nonatomic) IBOutlet WKWebView *webController;
 @property (strong, nonatomic) NSString *lastStoredLocation;
 @property (strong, nonatomic) NSNumberFormatter *fmt;
 @property double trueHeading;
@@ -83,7 +85,7 @@
         self.driverStatusLabel.text = @"Ausente";
     }
     
-    self.webController.delegate = self;
+    //self.webController.delegate = self;
     self.app.isAlertOpen = YES;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(callInitializeServiceData:) name:@"serviceDataNotification" object:nil];
@@ -126,7 +128,7 @@
     return queryStringDictionary;
 }
 
--(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+-(BOOL)webView:(WKWebView *)WKWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(WKNavigationType)navigationType {
     NSString *currentUrl = request.URL.absoluteString;
     
     if ([currentUrl rangeOfString:[self.app.payworksUrl stringByAppendingString:@"postauth-service-end"] options:NSRegularExpressionSearch].location != NSNotFound) {

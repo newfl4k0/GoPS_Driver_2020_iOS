@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52E55F4308C9BAE20A177A17 /* libPods-fa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49A1930B0C37A1CF74B19B /* libPods-fa.a */; };
 		6C028C5A1F47231F00FF7573 /* StatsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C028C591F47231F00FF7573 /* StatsDetailViewController.m */; };
 		6C0FC7821FDCA4E6004C6582 /* HistoricDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FC7811FDCA4E6004C6582 /* HistoricDetailViewController.m */; };
 		6C14A7291E38F97E00E82958 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C14A7281E38F97E00E82958 /* sound.mp3 */; };
@@ -39,13 +38,24 @@
 		6CDD65941E1820E200E59880 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD65931E1820E200E59880 /* LeftViewController.m */; };
 		6CDD659B1E182E8400E59880 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD659A1E182E8400E59880 /* MapViewController.m */; };
 		6CEAE3BC1E2D1A38005AE2ED /* DataLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEAE3BB1E2D1A38005AE2ED /* DataLibrary.m */; };
-		E1D3DF2E24E20315008F1913 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D3DF2D24E20315008F1913 /* libAFNetworking.a */; };
-		E1D3DF3224E2152F008F1913 /* libGoogle-Maps-iOS-Utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D3DF3124E2152F008F1913 /* libGoogle-Maps-iOS-Utils.a */; };
+		93843DB18A411CF73F5DB3B3 /* libPods-fa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C49997251AF7F100519D25 /* libPods-fa.a */; };
 		E2F71FB21E9DD16300DFDE79 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F71FB11E9DD16300DFDE79 /* ProfileViewController.m */; };
+		F5C49980251AC50D00519D25 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C4997F251AC50D00519D25 /* GoogleMaps.framework */; };
+		F5C49982251AC52300519D25 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C49981251AC52300519D25 /* GoogleMapsCore.framework */; };
+		F5C499CB251AFE3500519D25 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499CA251AFE3500519D25 /* Accelerate.framework */; };
+		F5C499CD251AFE4100519D25 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499CC251AFE4100519D25 /* CoreData.framework */; };
+		F5C499CF251AFE4A00519D25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499CE251AFE4A00519D25 /* CoreGraphics.framework */; };
+		F5C499D1251AFE5500519D25 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D0251AFE5500519D25 /* CoreImage.framework */; };
+		F5C499D3251AFE5F00519D25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D2251AFE5F00519D25 /* CoreLocation.framework */; };
+		F5C499D6251AFE9900519D25 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D4251AFE9900519D25 /* libz.tbd */; };
+		F5C499D7251AFE9900519D25 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D5251AFE9900519D25 /* libc++.tbd */; };
+		F5C499E2251AFEB500519D25 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499DE251AFEB500519D25 /* OpenGLES.framework */; };
+		F5C499E3251AFEB500519D25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499DF251AFEB500519D25 /* SystemConfiguration.framework */; };
+		F5C499E4251AFEB500519D25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499E0251AFEB500519D25 /* QuartzCore.framework */; };
+		F5C499E5251AFEB500519D25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499E1251AFEB500519D25 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A49A1930B0C37A1CF74B19B /* libPods-fa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C028C581F47231F00FF7573 /* StatsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsDetailViewController.h; sourceTree = "<group>"; };
 		6C028C591F47231F00FF7573 /* StatsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsDetailViewController.m; sourceTree = "<group>"; };
 		6C05ECFD1FE88A39002F3B0F /* Leon.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Leon.gpx; sourceTree = "<group>"; };
@@ -110,14 +120,23 @@
 		6CEAE3BB1E2D1A38005AE2ED /* DataLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLibrary.m; sourceTree = "<group>"; };
 		B25F0E7E1C53809ACC07A870 /* Pods-fa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fa/Pods-fa.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF55CEDD753CCEF2A38C353 /* Pods-fa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fa.release.xcconfig"; path = "Pods/Target Support Files/Pods-fa/Pods-fa.release.xcconfig"; sourceTree = "<group>"; };
-		E1D3DF2924E1FF33008F1913 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1D3DF2B24E1FF39008F1913 /* libDSBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDSBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1D3DF2D24E20315008F1913 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1D3DF2F24E20F0C008F1913 /* GoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleMaps; path = Pods/GoogleMaps; sourceTree = "<group>"; };
-		E1D3DF3024E20FB2008F1913 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = Pods/GoogleMaps/Maps/Frameworks; sourceTree = "<group>"; };
-		E1D3DF3124E2152F008F1913 /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F71FB01E9DD16300DFDE79 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		E2F71FB11E9DD16300DFDE79 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F5C4997E251AC48B00519D25 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = "../../../../Downloads/GoogleMaps-3.10.0/Base/Frameworks/GoogleMapsBase.framework"; sourceTree = "<group>"; };
+		F5C4997F251AC50D00519D25 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "../../../../Downloads/GoogleMaps-3.10.0/Maps/Frameworks/GoogleMaps.framework"; sourceTree = "<group>"; };
+		F5C49981251AC52300519D25 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = "../../../../Downloads/GoogleMaps-3.10.0/Maps/Frameworks/GoogleMapsCore.framework"; sourceTree = "<group>"; };
+		F5C49997251AF7F100519D25 /* libPods-fa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-fa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C499CA251AFE3500519D25 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F5C499CC251AFE4100519D25 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5C499CE251AFE4A00519D25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5C499D0251AFE5500519D25 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F5C499D2251AFE5F00519D25 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F5C499D4251AFE9900519D25 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F5C499D5251AFE9900519D25 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F5C499DE251AFEB500519D25 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5C499DF251AFEB500519D25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5C499E0251AFEB500519D25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5C499E1251AFEB500519D25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +144,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C499E2251AFEB500519D25 /* OpenGLES.framework in Frameworks */,
+				F5C499E3251AFEB500519D25 /* SystemConfiguration.framework in Frameworks */,
+				F5C499E4251AFEB500519D25 /* QuartzCore.framework in Frameworks */,
+				F5C499E5251AFEB500519D25 /* UIKit.framework in Frameworks */,
+				F5C499D6251AFE9900519D25 /* libz.tbd in Frameworks */,
+				F5C499D7251AFE9900519D25 /* libc++.tbd in Frameworks */,
+				F5C499D3251AFE5F00519D25 /* CoreLocation.framework in Frameworks */,
+				F5C499D1251AFE5500519D25 /* CoreImage.framework in Frameworks */,
+				F5C499CF251AFE4A00519D25 /* CoreGraphics.framework in Frameworks */,
+				F5C499CD251AFE4100519D25 /* CoreData.framework in Frameworks */,
+				F5C499CB251AFE3500519D25 /* Accelerate.framework in Frameworks */,
+				F5C49980251AC50D00519D25 /* GoogleMaps.framework in Frameworks */,
+				F5C49982251AC52300519D25 /* GoogleMapsCore.framework in Frameworks */,
 				6C180A2C1E1AAF21002DF27C /* MapKit.framework in Frameworks */,
-				E1D3DF3224E2152F008F1913 /* libGoogle-Maps-iOS-Utils.a in Frameworks */,
-				52E55F4308C9BAE20A177A17 /* libPods-fa.a in Frameworks */,
-				E1D3DF2E24E20315008F1913 /* libAFNetworking.a in Frameworks */,
+				93843DB18A411CF73F5DB3B3 /* libPods-fa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +177,22 @@
 		6145859E1FF134FF324962A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1D3DF3124E2152F008F1913 /* libGoogle-Maps-iOS-Utils.a */,
-				E1D3DF3024E20FB2008F1913 /* Frameworks */,
-				E1D3DF2F24E20F0C008F1913 /* GoogleMaps */,
-				E1D3DF2D24E20315008F1913 /* libAFNetworking.a */,
-				E1D3DF2B24E1FF39008F1913 /* libDSBarChart.a */,
-				E1D3DF2924E1FF33008F1913 /* libAFNetworking.a */,
+				F5C499DE251AFEB500519D25 /* OpenGLES.framework */,
+				F5C499E0251AFEB500519D25 /* QuartzCore.framework */,
+				F5C499DF251AFEB500519D25 /* SystemConfiguration.framework */,
+				F5C499E1251AFEB500519D25 /* UIKit.framework */,
+				F5C499D5251AFE9900519D25 /* libc++.tbd */,
+				F5C499D4251AFE9900519D25 /* libz.tbd */,
+				F5C499D2251AFE5F00519D25 /* CoreLocation.framework */,
+				F5C499D0251AFE5500519D25 /* CoreImage.framework */,
+				F5C499CE251AFE4A00519D25 /* CoreGraphics.framework */,
+				F5C499CC251AFE4100519D25 /* CoreData.framework */,
+				F5C499CA251AFE3500519D25 /* Accelerate.framework */,
+				F5C49997251AF7F100519D25 /* libPods-fa.a */,
+				F5C49981251AC52300519D25 /* GoogleMapsCore.framework */,
+				F5C4997F251AC50D00519D25 /* GoogleMaps.framework */,
+				F5C4997E251AC48B00519D25 /* GoogleMapsBase.framework */,
 				6C180A2B1E1AAF21002DF27C /* MapKit.framework */,
-				4A49A1930B0C37A1CF74B19B /* libPods-fa.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,7 +352,7 @@
 				6CDD65681E18027F00E59880 /* Frameworks */,
 				6CDD65691E18027F00E59880 /* Resources */,
 				6C9257EE1E243301009DF01F /* ShellScript */,
-				3798BD0BEB491F7DCDFE8AB7 /* [CP] Copy Pods Resources */,
+				68742C0E55476CE8CFE94A3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +369,7 @@
 		6CDD65631E18027F00E59880 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = GFA;
 				TargetAttributes = {
 					6CDD656A1E18027F00E59880 = {
@@ -385,7 +423,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3798BD0BEB491F7DCDFE8AB7 /* [CP] Copy Pods Resources */ = {
+		68742C0E55476CE8CFE94A3A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,7 +452,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 		E6C221BFAF24D10A5DB84260 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -518,16 +557,18 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 62;
+				CURRENT_PROJECT_VERSION = 70;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -545,10 +586,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = b1.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -578,16 +620,18 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 62;
+				CURRENT_PROJECT_VERSION = 70;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -599,9 +643,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = b1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -616,12 +661,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 62;
+				CURRENT_PROJECT_VERSION = 70;
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DSBarChart\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"$(SRCROOT)/Pods\"",
+				);
 				INFOPLIST_FILE = fa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = b1.0;
+				MARKETING_VERSION = 70;
 				PRODUCT_BUNDLE_IDENTIFIER = net.azurewebsites.gops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -638,12 +691,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 62;
+				CURRENT_PROJECT_VERSION = 70;
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DSBarChart\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"$(SRCROOT)/Pods\"",
+				);
 				INFOPLIST_FILE = fa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = b1.0;
+				MARKETING_VERSION = 70;
 				PRODUCT_BUNDLE_IDENTIFIER = net.azurewebsites.gops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
