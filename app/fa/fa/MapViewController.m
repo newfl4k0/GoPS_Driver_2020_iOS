@@ -44,7 +44,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *startAddressLabel;
 @property (weak, nonatomic) IBOutlet UILabel *endAddressLabel;
 @property (strong, nonatomic) NSMutableArray *gmsmarkerArray;
-@property (weak, nonatomic) IBOutlet WKWebView *webController;
 @property (strong, nonatomic) NSString *lastStoredLocation;
 @property (strong, nonatomic) NSNumberFormatter *fmt;
 @property double trueHeading;
@@ -53,6 +52,7 @@
 @end
 
 @implementation MapViewController
+@synthesize webController;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -84,8 +84,8 @@
         [self.statusButton setTitle:@"Cambiar a Libre" forState:UIControlStateNormal];
         self.driverStatusLabel.text = @"Ausente";
     }
-    
-    //self.webController.delegate = self;
+    webController = [[WKWebView alloc] initWithFrame:[[self view] bounds]];
+    self.webController.navigationDelegate = self;
     self.app.isAlertOpen = YES;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(callInitializeServiceData:) name:@"serviceDataNotification" object:nil];
@@ -128,15 +128,15 @@
     return queryStringDictionary;
 }
 
--(BOOL)webView:(WKWebView *)WKWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(WKNavigationType)navigationType {
-    NSString *currentUrl = request.URL.absoluteString;
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationResponse:(WKNavigationResponse *)navigationResponse decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler{
+    NSString *currentUrl = navigationResponse.response.URL.absoluteString;
     
     if ([currentUrl rangeOfString:[self.app.payworksUrl stringByAppendingString:@"postauth-service-end"] options:NSRegularExpressionSearch].location != NSNotFound) {
         NSDictionary *params = [self decodeURL:currentUrl];
         
         if ([[params objectForKey:@"RESULTADO_PAYW"] isEqualToString:@"A"]) {
             [self sendServiceEmail];
-            [self.view sendSubviewToBack:self.webController];
+            [self.view sendSubviewToBack:webView];
             
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 20.0 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
                 self.newStatus = 1;
@@ -149,13 +149,42 @@
         } else {
             [self showAlert:@"Error en el pago" : [[params objectForKey:@"TEXTO"] stringByReplacingOccurrencesOfString:@"+" withString:@" "]];
             [self hideSpinner];
-            [self.view sendSubviewToBack:self.webController];
+            [self.view sendSubviewToBack:webView];
             self.endServiceButton.enabled = YES;
         }
     }
-    
-    return YES;
+    decisionHandler(WKNavigationResponsePolicyAllow);
+
 }
+
+//-(BOOL)webView:(WKWebView *)WKWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(WKNavigationType)navigationType {
+//    NSString *currentUrl = request.URL.absoluteString;
+//
+//    if ([currentUrl rangeOfString:[self.app.payworksUrl stringByAppendingString:@"postauth-service-end"] options:NSRegularExpressionSearch].location != NSNotFound) {
+//        NSDictionary *params = [self decodeURL:currentUrl];
+//
+//        if ([[params objectForKey:@"RESULTADO_PAYW"] isEqualToString:@"A"]) {
+//            [self sendServiceEmail];
+//            [self.view sendSubviewToBack:self.webController];
+//
+//            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 20.0 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+//                self.newStatus = 1;
+//                [self.statusButton setTitle:@"Cambiar a Ausente" forState:UIControlStateNormal];
+//                [self changeStatus];
+//                [self hideSpinner];
+//                self.endServiceButton.enabled = YES;
+//            });
+//
+//        } else {
+//            [self showAlert:@"Error en el pago" : [[params objectForKey:@"TEXTO"] stringByReplacingOccurrencesOfString:@"+" withString:@" "]];
+//            [self hideSpinner];
+//            [self.view sendSubviewToBack:self.webController];
+//            self.endServiceButton.enabled = YES;
+//        }
+//    }
+//
+//    return YES;
+//}
 
 - (void)initTimeriOS9 {
     [self setGoogleMapLatestLocation];

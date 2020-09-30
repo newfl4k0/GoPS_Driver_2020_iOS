@@ -16,6 +16,7 @@
 @import UIKit;
 @import WebKit;
 
-@interface MapViewController : ViewController <WKUIDelegate,GMSMapViewDelegate>
+@interface MapViewController : ViewController <WKNavigationDelegate,GMSMapViewDelegate>
+@property (nonatomic, strong) IBOutlet WKWebView *webController;
 @property (strong, nonatomic) NSString *demoString;
 @end

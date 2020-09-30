@@ -50,16 +50,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9r-7P-Lcf" userLabel="Web Controller">
+                                <rect key="frame" x="0.0" y="125" width="414" height="737"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgnavbar" translatesAutoresizingMaskIntoConstraints="NO" id="5aa-r5-Ypl">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="a7X-CE-kLC"/>
                                 </constraints>
                             </imageView>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fuP-6f-0Hg">
-                                <rect key="frame" x="0.0" y="125" width="414" height="737"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yec-U6-pz1" userLabel="Google" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="125" width="414" height="737"/>
                                 <color key="backgroundColor" red="0.82533296103496878" green="0.9115856462811418" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -237,7 +242,6 @@
                             <constraint firstItem="P22-Sk-ml2" firstAttribute="centerX" secondItem="5aa-r5-Ypl" secondAttribute="centerX" id="K6s-Pr-YUR"/>
                             <constraint firstItem="yzM-Bx-rvo" firstAttribute="width" secondItem="WKF-lY-48f" secondAttribute="width" id="KhZ-Af-FuX"/>
                             <constraint firstItem="5aa-r5-Ypl" firstAttribute="width" secondItem="WKF-lY-48f" secondAttribute="width" id="M3q-Ch-1c8"/>
-                            <constraint firstItem="fuP-6f-0Hg" firstAttribute="centerX" secondItem="yec-U6-pz1" secondAttribute="centerX" id="Rs6-XI-VVK"/>
                             <constraint firstItem="xE4-R2-PdF" firstAttribute="leading" secondItem="WKF-lY-48f" secondAttribute="leading" id="Wu9-9F-zTt"/>
                             <constraint firstItem="5aa-r5-Ypl" firstAttribute="leading" secondItem="WKF-lY-48f" secondAttribute="leading" id="Ywe-L5-6PR"/>
                             <constraint firstItem="Jfe-CF-YHV" firstAttribute="top" secondItem="xE4-R2-PdF" secondAttribute="bottom" id="cO3-Cs-ko6"/>
@@ -245,13 +249,10 @@
                             <constraint firstItem="Njk-UE-ZJS" firstAttribute="centerX" secondItem="5aa-r5-Ypl" secondAttribute="centerX" id="d0A-Zi-cMO"/>
                             <constraint firstItem="P22-Sk-ml2" firstAttribute="top" secondItem="5aa-r5-Ypl" secondAttribute="bottom" id="dBp-sy-xri"/>
                             <constraint firstItem="P22-Sk-ml2" firstAttribute="width" secondItem="WKF-lY-48f" secondAttribute="width" id="dEL-08-XXE"/>
-                            <constraint firstItem="fuP-6f-0Hg" firstAttribute="width" secondItem="yec-U6-pz1" secondAttribute="width" id="ehp-J9-bQ6"/>
-                            <constraint firstItem="fuP-6f-0Hg" firstAttribute="centerY" secondItem="yec-U6-pz1" secondAttribute="centerY" id="h22-Op-S6Z"/>
                             <constraint firstItem="Njk-UE-ZJS" firstAttribute="bottom" secondItem="5aa-r5-Ypl" secondAttribute="bottom" id="mGP-bE-443"/>
                             <constraint firstItem="yzM-Bx-rvo" firstAttribute="centerY" secondItem="WKF-lY-48f" secondAttribute="centerY" id="nVL-ho-DTc"/>
                             <constraint firstItem="yec-U6-pz1" firstAttribute="top" secondItem="P22-Sk-ml2" secondAttribute="bottom" id="nxR-hx-0VX"/>
                             <constraint firstItem="5aa-r5-Ypl" firstAttribute="top" secondItem="WKF-lY-48f" secondAttribute="top" id="ohK-Ea-IsD"/>
-                            <constraint firstItem="fuP-6f-0Hg" firstAttribute="height" secondItem="yec-U6-pz1" secondAttribute="height" id="uJh-O4-TAa"/>
                             <constraint firstItem="Jfe-CF-YHV" firstAttribute="top" secondItem="yec-U6-pz1" secondAttribute="bottom" id="uWa-Mc-UEd"/>
                             <constraint firstAttribute="trailing" secondItem="5aa-r5-Ypl" secondAttribute="trailing" id="vGm-8Z-rBj"/>
                             <constraint firstItem="bbD-Wj-xPa" firstAttribute="bottom" secondItem="5aa-r5-Ypl" secondAttribute="bottom" constant="-8" id="wWp-d3-Vhk"/>
@@ -270,7 +271,7 @@
                         <outlet property="largeSpinner" destination="yzM-Bx-rvo" id="w8q-CI-mTC"/>
                         <outlet property="startAddressLabel" destination="5vZ-01-ZEN" id="Z0E-LZ-k5R"/>
                         <outlet property="statusButton" destination="NBJ-LQ-56e" id="hJ4-PI-nb8"/>
-                        <outlet property="webController" destination="fuP-6f-0Hg" id="jWg-rU-30s"/>
+                        <outlet property="webController" destination="S9r-7P-Lcf" id="eiE-S5-M4w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qxa-be-Rxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
