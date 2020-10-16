@@ -27,8 +27,8 @@
     self.manager = [AFHTTPSessionManager manager];
     self.currentStatus = 0;
     self.hasService = 0;
-    self.serverUrl = @"https://godriverx.goppluswebx.com/";
-    self.payworksUrl = @"https://gopspayx.goppluswebx.com/";
+    self.serverUrl = @"https://gopplusd.azurewebsites.net/";
+    self.payworksUrl = @"https://gopplusp.azurewebsites.net/";
     self.isAlertOpen = NO;
 
     [GMSServices provideAPIKey:@"AIzaSyAnLqd2gzuXQxq_msNZSDAHxn7PTNN7b7Q"];

@@ -49,7 +49,6 @@
 		F5C499D3251AFE5F00519D25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D2251AFE5F00519D25 /* CoreLocation.framework */; };
 		F5C499D6251AFE9900519D25 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D4251AFE9900519D25 /* libz.tbd */; };
 		F5C499D7251AFE9900519D25 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499D5251AFE9900519D25 /* libc++.tbd */; };
-		F5C499E2251AFEB500519D25 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499DE251AFEB500519D25 /* OpenGLES.framework */; };
 		F5C499E3251AFEB500519D25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499DF251AFEB500519D25 /* SystemConfiguration.framework */; };
 		F5C499E4251AFEB500519D25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499E0251AFEB500519D25 /* QuartzCore.framework */; };
 		F5C499E5251AFEB500519D25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C499E1251AFEB500519D25 /* UIKit.framework */; };
@@ -144,7 +143,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C499E2251AFEB500519D25 /* OpenGLES.framework in Frameworks */,
 				F5C499E3251AFEB500519D25 /* SystemConfiguration.framework in Frameworks */,
 				F5C499E4251AFEB500519D25 /* QuartzCore.framework in Frameworks */,
 				F5C499E5251AFEB500519D25 /* UIKit.framework in Frameworks */,
@@ -566,7 +564,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 73;
+				CURRENT_PROJECT_VERSION = 76;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -587,7 +585,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 73;
+				MARKETING_VERSION = 76;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -629,7 +627,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 73;
+				CURRENT_PROJECT_VERSION = 76;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -644,7 +642,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 73;
+				MARKETING_VERSION = 76;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -661,7 +659,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 73;
+				CURRENT_PROJECT_VERSION = 76;
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,7 +672,7 @@
 				INFOPLIST_FILE = fa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 73;
+				MARKETING_VERSION = 76;
 				PRODUCT_BUNDLE_IDENTIFIER = net.azurewebsites.gops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -691,7 +689,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 73;
+				CURRENT_PROJECT_VERSION = 76;
 				DEVELOPMENT_TEAM = 426NG3E4Q3;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -704,7 +702,7 @@
 				INFOPLIST_FILE = fa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 73;
+				MARKETING_VERSION = 76;
 				PRODUCT_BUNDLE_IDENTIFIER = net.azurewebsites.gops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

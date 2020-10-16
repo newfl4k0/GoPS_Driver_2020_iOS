@@ -30,25 +30,20 @@
 		080A34F5F7BB6CDE1F2130EA44060E21 /* GMUDefaultClusterRenderer+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F42E6DF6CDE2DD95B71568797CAE1D /* GMUDefaultClusterRenderer+Testing.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0A3AB8E55BDE437D81F0C69E05C3308C /* GQTPointQuadTreeChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 2389D3510071C8E60BB877CE892AB977 /* GQTPointQuadTreeChild.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0BA962127AD5147C3D3B12EAE1414379 /* GQTPointQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = D283F632042B01C0F103E9CBD9D8D93A /* GQTPointQuadTree.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8570D458C053431E22A409EC28E59 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D3A3EC03F707394C987CFD21777D6F8 /* GMUStaticCluster 2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6660432B530AB554836E45349206D681 /* GMUStaticCluster 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		103B377BB11EB9F6C56B0627CDC4F19D /* GMUFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF860CDBCDC6CD8C2EF3758B344C0D6 /* GMUFeature.m */; };
-		10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E87F8BD56F8CD7B4A19FC6842578EBC /* AFImageDownloader.m */; };
 		1102564C9CDAC18DF8D6DB20F6523E72 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C452DC8F8FC4C07DF05B3C690EDC94 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		132D6729147E943BD06EDD1597F160BC /* GMUGradient 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1BB3CE6AD3D93CAC3F122FCB244B95 /* GMUGradient 2.m */; };
 		1EA1235398DAC98440B2EFBE43839FD1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6A3BFD1AC452985A5D630DC46C65C /* AFSecurityPolicy.m */; };
 		1F0BDCEE93B0FDC018A5ECA156158764 /* GMUHeatmapTileLayer 2.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBA4C564C4E712409F35E0C2049C101 /* GMUHeatmapTileLayer 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F66F73B61BEA115076A9CF7DD463832 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF595D58206C7A98159E28AA2183C7 /* AFNetworkActivityIndicatorManager.m */; };
 		252501A84ABAA17D3FBA208F084AF476 /* GMUGroundOverlay 2.m in Sources */ = {isa = PBXBuildFile; fileRef = EF823800B6469ACB429AD744CBCDFF84 /* GMUGroundOverlay 2.m */; };
 		28E182CA71878D757DB4BC82BB520F4E /* GMUWeightedLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = B91DD290F0B59CE481E9A8EFBDCEC416 /* GMUWeightedLatLng.m */; };
 		29A268441E9BB88BAEA3F751C0FE84BA /* GMSMarker+GMUClusteritem.h in Headers */ = {isa = PBXBuildFile; fileRef = A199B942A388853FE3B1675B945B8903 /* GMSMarker+GMUClusteritem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 779E3D747CC8C67CBA0BCB9F92E917CC /* AFURLResponseSerialization.m */; };
 		2CF18850687B0A58ED5460EAE725C8F3 /* GQTBounds 2.h in Headers */ = {isa = PBXBuildFile; fileRef = 80030BC7A2C222D4A023E57E6C5EC307 /* GQTBounds 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D61489D0E21AC8A9FCB9FF3F2FB6C50 /* GMUGeometryCollection 2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F640F22269010845F886279576DF5DE /* GMUGeometryCollection 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		304FB2F3CB19F5C44D812D90AA2F1121 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 844404E3F22F54A4D4392E170285A099 /* UIRefreshControl+AFNetworking.m */; };
 		30F2AE12B5FB900D5063743F23E75353 /* GMUGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451D2616F8E6E1FB3CC5A8764646881 /* GMUGradient.m */; };
 		3336025D98B4409F367C1EE3108F9A21 /* GMUClusterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E269F2B80A75191F7D5617843841EDED /* GMUClusterItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C44D8BB78410D6803FB01D2197E5C4 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34F5BDE5FEC8439DE844C90D524DBEFB /* GMUPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 022843829B60CA232716B5BA9AB008B1 /* GMUPair.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		350EEED2957979FB2B25CD7CF1FB80FB /* GMULineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF92112DEFE61D4F1DF71CBB8A93A5 /* GMULineString.m */; };
 		35DCBDA28808DF0E16E2F4BF52B931E0 /* GMUPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A84B8A3D697E2F93A36D81E4310C5 /* GMUPlacemark.m */; };
@@ -58,8 +53,6 @@
 		38ECC2C37B59534652F23DB8AFDD5A17 /* GMUGradient 2.h in Headers */ = {isa = PBXBuildFile; fileRef = A69B47CF13CA9AEE86481699066BE0B9 /* GMUGradient 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3D3B3EA8F23C0A0AA4414721B018A0FA /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0D860F26B12BE09DD3A1E06FF2EC2 /* GQTPointQuadTree.m */; };
 		3F1FC4E2F64C4DFD6A1E1067F2C6C414 /* GMUWrappingDictionaryKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F7FA2E36A5CA0AF47DE6DA7F2964AF /* GMUWrappingDictionaryKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1688DE6C42BE62A41A315BE9B86880 /* UIImageView+AFNetworking.m */; };
-		418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DE8CDB81D19F709E4BE33A2447DCB6 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4623428C0DC07F520690A1B02D7BDD82 /* DSBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BB57D305930FE5EB0D827BCD5DDE93 /* DSBarChart.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4A07238C63B3E88DE96867090CD2E1EE /* GMUPlacemark 2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC612580171F110FB92C83951D7D1CD6 /* GMUPlacemark 2.m */; };
 		4A147591EB948BCE9E7A61EE2C49F4FE /* GMUPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = D116C2571CF0CAC831010D8925AAF455 /* GMUPolygon.m */; };
@@ -68,9 +61,6 @@
 		4D85610C0E15CF45D86D6827FDDE2D61 /* GMULineString 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A26F144B77032A222EA6E69A06C486 /* GMULineString 2.m */; };
 		4E3C64501FE90827FC8EDC842795C624 /* GMUDefaultClusterIconGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DB278ED90C495B491812F111DBFCE1 /* GMUDefaultClusterIconGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		509B6E620B5B6403E8819C5E83EF8297 /* GMUStyle 2.h in Headers */ = {isa = PBXBuildFile; fileRef = E45CEB218207233AAFC5972DFAE7D145 /* GMUStyle 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A1729F26231EC0254CA444EB661743 /* UIActivityIndicatorView+AFNetworking.m */; };
-		5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A25EEA7B4645583D905D5CC855A811CB /* AFAutoPurgingImageCache.m */; };
-		5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B7101B5C06F6B9C28C6860F221E1A9 /* UIWebView+AFNetworking.m */; };
 		57AE074123A75F5A1616024084B80C47 /* GMUPlacemark.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F04B8698B26661B3C839913845FA86E /* GMUPlacemark.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		590DF5625FF5EC2D7406BC061C0D4158 /* GMUKMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EEF4904263ECD660395E0D00086618 /* GMUKMLParser.m */; };
 		5F0664D8DC03E817F4527D9506B46188 /* GMUGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2C72B7F9C79E4462F9577E4A26E683 /* GMUGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -84,7 +74,6 @@
 		6571F400981D9EB16090C934B197DF03 /* GMSMarker+GMUClusteritem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8061BD2CE5405DB87C598C44877E0DC7 /* GMSMarker+GMUClusteritem.m */; };
 		6833CF0FBAA23BEA2A747269FF22BBA4 /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A997E63665B144C0FB5BEF23279DA8 /* GMUNonHierarchicalDistanceBasedAlgorithm.m */; };
 		68B329FA789F8FF6684B114666CD278D /* GMULineString.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F331E801C081F22B10972695318686 /* GMULineString.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 82824D8FFFE0A5A85620EEB519ABB202 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CED40847B6136F5C0243A8863840A18 /* GMUStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DC3133111A6A864241DE7528C1EF81 /* GMUStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D8283232CB3366BDBBC4E4159C18647 /* GMUWrappingDictionaryKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DA9311173AE47355B5B63EFBF6C6B /* GMUWrappingDictionaryKey.m */; };
 		6D8682D1A45D2C1F5C06EF8E872A546A /* GMUWeightedLatLng 2.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D549C94B24C106D9C5E3424E3E1B66 /* GMUWeightedLatLng 2.m */; };
@@ -107,7 +96,6 @@
 		8470F32A7F5B580F968C9229AFE039F9 /* GMUClusterAlgorithm 2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC9DEFEADD9A82B0A003E327051D94A /* GMUClusterAlgorithm 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		868EF10FF9D67957A058371A8675A9A4 /* GQTPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCFE7E04CDB1F492CD2238DB4FA51EC /* GQTPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8733D7A11451D4D12CCC748DED674638 /* GMUPair 2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA67BD94D18733114ECD5AC552EC8FE3 /* GMUPair 2.m */; };
-		894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AEA3FA8801074B3CB89B4E78473429 /* UIProgressView+AFNetworking.m */; };
 		89DA2E17DFEAA3F57D938D7D4F75D909 /* GQTPointQuadTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBC7C787F96A029AE314DAC0926C739 /* GQTPointQuadTreeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8A843C649A0C95EFCDB1AEE80AC002E1 /* GMUGridBasedClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 179044989116C6ACFF64E3DA2BFE8EA5 /* GMUGridBasedClusterAlgorithm.m */; };
 		91F775091EA2E0ADAE3176892E884B7A /* GMUPolygon 2.m in Sources */ = {isa = PBXBuildFile; fileRef = D62B9053C5FDC4664702F785B08ECBDE /* GMUPolygon 2.m */; };
@@ -119,25 +107,20 @@
 		9A91ABCC157B0BEFDE7029DE3CEE6367 /* GQTPointQuadTree 2.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD5105B4E905BBD4EF1E36A5BA02FAB /* GQTPointQuadTree 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9AD2006D189EEFC1C676FEA4E72409E2 /* GMUGeometryRenderer+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 08329F7B3F390CD95FE68643B8DDED08 /* GMUGeometryRenderer+Testing.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A1508F5C8D37D1F6D6E2B6143660FF3A /* GMUStyleMap 2.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CC3EBE1FC0D5F99FDD6D15B0515D52 /* GMUStyleMap 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDC65D57BACC7A7023CC0D1C407A5C /* UIButton+AFNetworking.m */; };
 		A4CD7924785B8A74A10A36B950ECF729 /* GMUClusterRenderer 2.h in Headers */ = {isa = PBXBuildFile; fileRef = BC46DBCA6BBC1D23FCD9E1EB6C76DEEB /* GMUClusterRenderer 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A676D558CA454ADBA86A51FB161811D2 /* GMUWeightedLatLng 2.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC3235738DD3FAA6F60BE7DB1D92281 /* GMUWeightedLatLng 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F7C4C33E1661935B9B13F1A1D6B089 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA2A59056561A28889F37FC4F4A12A82 /* GMUGeometryCollection 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D0B1E5AF0251562418A36179AD85A /* GMUGeometryCollection 2.m */; };
 		AB4A393490451BEC307DBF4AB7408103 /* GMUCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 182789A4D5DA72A7611B5B44FBDA106A /* GMUCluster.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C60BDE5278E10B53B89CE91AF67C6475 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B08BA907066F2A3A912BDE52FAD3AF96 /* GMUClusterAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = C3352792155E9BAE8BC1BEE4D8B3CD4D /* GMUClusterAlgorithm.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B1B60670E06179A37028C4D64733E /* AFNetworking-dummy.m */; };
 		B1178BABB21483141A094802D6213B0E /* GMUHeatmapTileLayer+Testing 2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A66AB4330C5ECEA3D461E7E2E2BC4B /* GMUHeatmapTileLayer+Testing 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B27878E3B8F8ADB1FE01DBD6CB5812E7 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 601BF573B27A47EE1CE4226C1A54F0B6 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B6CEECF0C179E87247B198A86F7F1D2E /* GMUGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C47DF7C7A749B8A6EEF3ED39D0EE65 /* GMUGroundOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B83D660DD5905189F8F8E6E0A419BC9D /* GMUStyle 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA453E281047C789739756995818F9 /* GMUStyle 2.m */; };
 		BB0C09F0315F3957D112774860484B02 /* GMUNonHierarchicalDistanceBasedAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1942CA54A1C7EF6F142BD995F2A08B /* GMUNonHierarchicalDistanceBasedAlgorithm.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC1927D87A257A588C7504DC30EE8CBD /* GMUGeometryRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAAD6E23A5D2AEA906AB5FD72C67263 /* GMUGeometryRenderer.m */; };
 		BDA38583184247F1E53413B1D06F4BBA /* GMUGeometryRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBC006A1CA562EEB8C6458C45F41756 /* GMUGeometryRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C04DC3FCB21D358841C10291D04286C3 /* GQTPointQuadTreeChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0E8629E45F307895485D5583844B6 /* GQTPointQuadTreeChild.m */; };
-		C06F61A759022A62864BD9F8EE3660F3 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DC082E41E5E879796A1CE58ED7781196 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1AD0C2AD494152904898F2E9016258 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C45C871AB1191B6164D5B03211B3BF87 /* GMUGeometry 2.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBAADC7401A2A1B6892E3066E6C4EED /* GMUGeometry 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C6833FA4051BA1AF33FB3C2803DDA8DB /* GMUStyleMap 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 789C7239EB6E9A120F8E0AEE1BDC32CA /* GMUStyleMap 2.m */; };
 		C7CD31615BF9E6E74F063792194B582A /* GMUClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD872F8BBF2C139ECA5AC7D8B881A01 /* GMUClusterManager.m */; };
@@ -146,7 +129,6 @@
 		CD0B0E9D08632E5A71CD58AF9F1F0ABA /* GQTPointQuadTree 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D901156045A32A90142BBB4680F5567 /* GQTPointQuadTree 2.m */; };
 		D07C0097BA1C7390E201C73BA79B4918 /* GMUGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 922B83FAC4E8DBA4D92350F82BCEEAD5 /* GMUGradient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D280A3B13923FF5FA778EF312BD965F7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D7C4956E5C8ADEFECEEC4FB6A8BDF0 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E0D8FB35136C16651736638C9BDDA2 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D46F47ABCAA2A6F4971F90FFBBD1CD30 /* Google-Maps-iOS-Utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1D58BB44C3BD3CB44FC3C85253A6F /* Google-Maps-iOS-Utils-dummy.m */; };
 		D5433A578AF999231BEC4F274DE11933 /* GMUClusterRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D42A0D11F4F720A05E2E8C015962DAB3 /* GMUClusterRenderer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE76C99B3F88632E235004FFCA349F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -163,9 +145,7 @@
 		EED813D11D2AFF473F3FF518E473E2C7 /* GMUFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FA6BAE3AFC32F9A93D51D336F21590 /* GMUFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F23B9B5D9FAA787C16944C428E06A4EE /* GMUDefaultClusterRenderer+Testing 2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F6905B30E9BB61B6286571BA2E3861 /* GMUDefaultClusterRenderer+Testing 2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F3D65B384D55D3D9B121597CCD689E31 /* GMUSimpleClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0350C9432186348B4D21F6E9C84DDA4B /* GMUSimpleClusterAlgorithm.m */; };
-		F9AD2CFBEDD600706B921428D25DFA3A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E80EA200AF761BE80FFD4F0954D9DC48 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F9C1CECA7426216A22E4461D7E8080D4 /* GMUPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE7A83904263CE2A588DAC4C5D582A /* GMUPair.m */; };
-		FEAA3C60F4BDDAC22BD1A6B047DBAAE9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 566D428F019289AF7FB9198F31FE32A4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FF6270F53CF01EB0988EBB6715D630F0 /* GMUGroundOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AFE7402709661A5AEA24A6455F292 /* GMUGroundOverlay.m */; };
 /* End PBXBuildFile section */
 
@@ -214,7 +194,6 @@
 		06F42E6DF6CDE2DD95B71568797CAE1D /* GMUDefaultClusterRenderer+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterRenderer+Testing.h"; path = "src/Clustering/View/GMUDefaultClusterRenderer+Testing.h"; sourceTree = "<group>"; };
 		0746A845615079764F86F6E2B6C6F486 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		08329F7B3F390CD95FE68643B8DDED08 /* GMUGeometryRenderer+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUGeometryRenderer+Testing.h"; path = "src/Geometry/GMUGeometryRenderer+Testing.h"; sourceTree = "<group>"; };
-		08B7101B5C06F6B9C28C6860F221E1A9 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		08E0D860F26B12BE09DD3A1E06FF2EC2 /* GQTPointQuadTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GQTPointQuadTree.m; path = src/QuadTree/GQTPointQuadTree.m; sourceTree = "<group>"; };
 		09FE7A83904263CE2A588DAC4C5D582A /* GMUPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUPair.m; path = src/Geometry/Model/GMUPair.m; sourceTree = "<group>"; };
 		0CAF92112DEFE61D4F1DF71CBB8A93A5 /* GMULineString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMULineString.m; path = src/Geometry/Model/GMULineString.m; sourceTree = "<group>"; };
@@ -236,7 +215,6 @@
 		2389D3510071C8E60BB877CE892AB977 /* GQTPointQuadTreeChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTreeChild.h; path = src/QuadTree/GQTPointQuadTreeChild.h; sourceTree = "<group>"; };
 		23E2D7B989D76506DF230F7AF0C58E53 /* GMUPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUPolygon.h; path = src/Geometry/Model/GMUPolygon.h; sourceTree = "<group>"; };
 		26C47DF7C7A749B8A6EEF3ED39D0EE65 /* GMUGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGroundOverlay.h; path = src/Geometry/Model/GMUGroundOverlay.h; sourceTree = "<group>"; };
-		26F7C4C33E1661935B9B13F1A1D6B089 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		278A3BA3A1730666B09BF32DFB97EC08 /* GMUHeatmapTileLayer+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUHeatmapTileLayer+Testing.h"; path = "src/Heatmap/GMUHeatmapTileLayer+Testing.h"; sourceTree = "<group>"; };
 		2BD2E4B886BF60F6C5734724DF40EBA5 /* GMUStaticCluster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUStaticCluster.m; path = src/Clustering/GMUStaticCluster.m; sourceTree = "<group>"; };
 		2CED4E8D519E3E2F19DA93B51D63FBCB /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
@@ -247,10 +225,8 @@
 		38CE64A72A37F2401E7C8F91B9203275 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		38DC3133111A6A864241DE7528C1EF81 /* GMUStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUStyle.h; path = src/Geometry/Model/GMUStyle.h; sourceTree = "<group>"; };
 		3E1BB3CE6AD3D93CAC3F122FCB244B95 /* GMUGradient 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUGradient 2.m"; path = "src/Heatmap/GMUGradient 2.m"; sourceTree = "<group>"; };
-		3E87F8BD56F8CD7B4A19FC6842578EBC /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		3ECF28327E074D463ED52AC80AFE6E29 /* GMUStaticCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUStaticCluster.h; path = src/Clustering/GMUStaticCluster.h; sourceTree = "<group>"; };
 		3FBA15659C21D4A18687D191A75656BF /* GMUWeightedLatLng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUWeightedLatLng.h; path = src/Heatmap/GMUWeightedLatLng.h; sourceTree = "<group>"; };
-		46C44D8BB78410D6803FB01D2197E5C4 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		48E1D87DBCEA0B4B9C4A3C6283C59A2F /* GMUHeatmapTileLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUHeatmapTileLayer.m; path = src/Heatmap/GMUHeatmapTileLayer.m; sourceTree = "<group>"; };
 		4BFB1EA08C83456BF364E5108C18696B /* Google-Maps-iOS-Utils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Maps-iOS-Utils.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1670B5D2D1979A3DCF456BBC07603D /* GMUGroundOverlay 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUGroundOverlay 2.h"; path = "src/Geometry/Model/GMUGroundOverlay 2.h"; sourceTree = "<group>"; };
@@ -261,18 +237,15 @@
 		4DBC006A1CA562EEB8C6458C45F41756 /* GMUGeometryRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGeometryRenderer.h; path = src/Geometry/GMUGeometryRenderer.h; sourceTree = "<group>"; };
 		4E1DA9311173AE47355B5B63EFBF6C6B /* GMUWrappingDictionaryKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUWrappingDictionaryKey.m; path = src/Clustering/Algo/GMUWrappingDictionaryKey.m; sourceTree = "<group>"; };
 		4F0F8F922D5FDAF27A781E17B5274656 /* Pods-fa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fa-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51E0D8FB35136C16651736638C9BDDA2 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		52898E3F3145605857458E7591122AE2 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		52CD36E852C9AAEB266A00A524111826 /* GMUSimpleClusterAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUSimpleClusterAlgorithm.h; path = src/Clustering/Algo/GMUSimpleClusterAlgorithm.h; sourceTree = "<group>"; };
 		5451D2616F8E6E1FB3CC5A8764646881 /* GMUGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUGradient.m; path = src/Heatmap/GMUGradient.m; sourceTree = "<group>"; };
-		566D428F019289AF7FB9198F31FE32A4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		580AFE7402709661A5AEA24A6455F292 /* GMUGroundOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUGroundOverlay.m; path = src/Geometry/Model/GMUGroundOverlay.m; sourceTree = "<group>"; };
 		5AC0711A3AE2E08011A5C450151903EA /* Pods-fa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fa.release.xcconfig"; sourceTree = "<group>"; };
 		5C2D0B1E5AF0251562418A36179AD85A /* GMUGeometryCollection 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUGeometryCollection 2.m"; path = "src/Geometry/Model/GMUGeometryCollection 2.m"; sourceTree = "<group>"; };
 		5CA9E6FE438CE79CD76FA3B34CC95836 /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6725AAD3C033A9EA9121EF2D42D052 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		5F2C72B7F9C79E4462F9577E4A26E683 /* GMUGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGeometry.h; path = src/Geometry/Model/GMUGeometry.h; sourceTree = "<group>"; };
-		601BF573B27A47EE1CE4226C1A54F0B6 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		618C915E0E5F1AEB82D8420D975D55EC /* GQTBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GQTBounds.h; path = src/QuadTree/GQTBounds.h; sourceTree = "<group>"; };
 		62B0B0C61B93F97B6DBC229F28ABB100 /* GMUClusterIconGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUClusterIconGenerator.h; path = src/Clustering/View/GMUClusterIconGenerator.h; sourceTree = "<group>"; };
 		655B34B4011B2ECF46F215E72D3D0C4F /* GMUGeometryContainer 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUGeometryContainer 2.h"; path = "src/Geometry/Model/GMUGeometryContainer 2.h"; sourceTree = "<group>"; };
@@ -281,9 +254,7 @@
 		66EE9B97A5F10A7F8E882AA1D8566F31 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		69D87761F203B91C3DE649D030D2F3DB /* GMUStyleMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUStyleMap.m; path = src/Geometry/Model/GMUStyleMap.m; sourceTree = "<group>"; };
 		6A65D0889B68893A5E7E12F55F4DBC5C /* GMUDefaultClusterIconGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUDefaultClusterIconGenerator.m; path = src/Clustering/View/GMUDefaultClusterIconGenerator.m; sourceTree = "<group>"; };
-		6B1AD0C2AD494152904898F2E9016258 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		6C1FC556FEB26FCDC35674FF9AB59911 /* GMUGeometryCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUGeometryCollection.m; path = src/Geometry/Model/GMUGeometryCollection.m; sourceTree = "<group>"; };
-		6DFF595D58206C7A98159E28AA2183C7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		6EBC7C787F96A029AE314DAC0926C739 /* GQTPointQuadTreeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTreeItem.h; path = src/QuadTree/GQTPointQuadTreeItem.h; sourceTree = "<group>"; };
 		6F04B8698B26661B3C839913845FA86E /* GMUPlacemark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUPlacemark.h; path = src/Geometry/Model/GMUPlacemark.h; sourceTree = "<group>"; };
 		6F8B1B60670E06179A37028C4D64733E /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
@@ -294,21 +265,16 @@
 		7D0781860547C90F7089488D7734E120 /* Pods-fa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fa-acknowledgements.plist"; sourceTree = "<group>"; };
 		80030BC7A2C222D4A023E57E6C5EC307 /* GQTBounds 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GQTBounds 2.h"; path = "src/QuadTree/GQTBounds 2.h"; sourceTree = "<group>"; };
 		8061BD2CE5405DB87C598C44877E0DC7 /* GMSMarker+GMUClusteritem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMSMarker+GMUClusteritem.m"; path = "src/Clustering/GMSMarker+GMUClusteritem.m"; sourceTree = "<group>"; };
-		82824D8FFFE0A5A85620EEB519ABB202 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		82C05027B1164A5D78351BFA399263A0 /* GMUDefaultClusterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUDefaultClusterRenderer.h; path = src/Clustering/View/GMUDefaultClusterRenderer.h; sourceTree = "<group>"; };
-		844404E3F22F54A4D4392E170285A099 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		84A26F144B77032A222EA6E69A06C486 /* GMULineString 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMULineString 2.m"; path = "src/Geometry/Model/GMULineString 2.m"; sourceTree = "<group>"; };
 		85DB278ED90C495B491812F111DBFCE1 /* GMUDefaultClusterIconGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUDefaultClusterIconGenerator.h; path = src/Clustering/View/GMUDefaultClusterIconGenerator.h; sourceTree = "<group>"; };
 		87D7C4956E5C8ADEFECEEC4FB6A8BDF0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		87F6905B30E9BB61B6286571BA2E3861 /* GMUDefaultClusterRenderer+Testing 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterRenderer+Testing 2.h"; path = "src/Clustering/View/GMUDefaultClusterRenderer+Testing 2.h"; sourceTree = "<group>"; };
 		8ABC73C99778D706CDAABF19DFD9088E /* GMUPair 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUPair 2.h"; path = "src/Geometry/Model/GMUPair 2.h"; sourceTree = "<group>"; };
-		8C1688DE6C42BE62A41A315BE9B86880 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		8D0773FC4527878B724C415C4D223F22 /* GMUPoint 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUPoint 2.m"; path = "src/Geometry/Model/GMUPoint 2.m"; sourceTree = "<group>"; };
 		8DC9DEFEADD9A82B0A003E327051D94A /* GMUClusterAlgorithm 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUClusterAlgorithm 2.h"; path = "src/Clustering/Algo/GMUClusterAlgorithm 2.h"; sourceTree = "<group>"; };
 		8F640F22269010845F886279576DF5DE /* GMUGeometryCollection 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUGeometryCollection 2.h"; path = "src/Geometry/Model/GMUGeometryCollection 2.h"; sourceTree = "<group>"; };
 		922B83FAC4E8DBA4D92350F82BCEEAD5 /* GMUGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGradient.h; path = src/Heatmap/GMUGradient.h; sourceTree = "<group>"; };
-		93CDC65D57BACC7A7023CC0D1C407A5C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		95DE8CDB81D19F709E4BE33A2447DCB6 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		97F7FA2E36A5CA0AF47DE6DA7F2964AF /* GMUWrappingDictionaryKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUWrappingDictionaryKey.h; path = src/Clustering/Algo/GMUWrappingDictionaryKey.h; sourceTree = "<group>"; };
 		985BF7D727325E400DFE83E219250523 /* GMUClusterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUClusterManager.h; path = src/Clustering/GMUClusterManager.h; sourceTree = "<group>"; };
 		9BBCC26B72C72562D5D0DC793B982852 /* GMUGeometryContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGeometryContainer.h; path = src/Geometry/Model/GMUGeometryContainer.h; sourceTree = "<group>"; };
@@ -318,7 +284,6 @@
 		A0FC66EBD99647C1DC62290C5CC0D83C /* GMUStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUStyle.m; path = src/Geometry/Model/GMUStyle.m; sourceTree = "<group>"; };
 		A199B942A388853FE3B1675B945B8903 /* GMSMarker+GMUClusteritem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMSMarker+GMUClusteritem.h"; path = "src/Clustering/GMSMarker+GMUClusteritem.h"; sourceTree = "<group>"; };
 		A256D2AAAF1B50E0A34A23FCFB860FB7 /* libDSBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A25EEA7B4645583D905D5CC855A811CB /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69B47CF13CA9AEE86481699066BE0B9 /* GMUGradient 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUGradient 2.h"; path = "src/Heatmap/GMUGradient 2.h"; sourceTree = "<group>"; };
 		A7A6A35CEC2E8263933A67FF7A8CF721 /* Google-Maps-iOS-Utils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Maps-iOS-Utils.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,12 +299,10 @@
 		BC46DBCA6BBC1D23FCD9E1EB6C76DEEB /* GMUClusterRenderer 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUClusterRenderer 2.h"; path = "src/Clustering/View/GMUClusterRenderer 2.h"; sourceTree = "<group>"; };
 		BC612580171F110FB92C83951D7D1CD6 /* GMUPlacemark 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUPlacemark 2.m"; path = "src/Geometry/Model/GMUPlacemark 2.m"; sourceTree = "<group>"; };
 		BDDBCE507D2C535956AD4FA23A937086 /* Pods-fa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fa.debug.xcconfig"; sourceTree = "<group>"; };
-		C0C8570D458C053431E22A409EC28E59 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		C278916A7EF4E4E0414158EF62B972BE /* GMUGeoJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUGeoJSONParser.m; path = src/Geometry/GMUGeoJSONParser.m; sourceTree = "<group>"; };
 		C3352792155E9BAE8BC1BEE4D8B3CD4D /* GMUClusterAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUClusterAlgorithm.h; path = src/Clustering/Algo/GMUClusterAlgorithm.h; sourceTree = "<group>"; };
 		C60BDE5278E10B53B89CE91AF67C6475 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		C653B8195FB77F501EECD8CEF831F9AB /* GQTPointQuadTreeChild 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GQTPointQuadTreeChild 2.m"; path = "src/QuadTree/GQTPointQuadTreeChild 2.m"; sourceTree = "<group>"; };
-		C8AEA3FA8801074B3CB89B4E78473429 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		C8C452DC8F8FC4C07DF05B3C690EDC94 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		CAC37419ADCFF3E736A95B61CB6AC2E2 /* GMUPolygon 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUPolygon 2.h"; path = "src/Geometry/Model/GMUPolygon 2.h"; sourceTree = "<group>"; };
 		CB1942CA54A1C7EF6F142BD995F2A08B /* GMUNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUNonHierarchicalDistanceBasedAlgorithm.h; path = src/Clustering/Algo/GMUNonHierarchicalDistanceBasedAlgorithm.h; sourceTree = "<group>"; };
@@ -347,7 +310,6 @@
 		CDC3AA503B173DAB66FA7EEE77FDECC2 /* GMUDefaultClusterIconGenerator+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterIconGenerator+Testing.h"; path = "src/Clustering/View/GMUDefaultClusterIconGenerator+Testing.h"; sourceTree = "<group>"; };
 		D116C2571CF0CAC831010D8925AAF455 /* GMUPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMUPolygon.m; path = src/Geometry/Model/GMUPolygon.m; sourceTree = "<group>"; };
 		D165D0E42A232088824BA411E53A9B2B /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		D1A1729F26231EC0254CA444EB661743 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		D1D549C94B24C106D9C5E3424E3E1B66 /* GMUWeightedLatLng 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUWeightedLatLng 2.m"; path = "src/Heatmap/GMUWeightedLatLng 2.m"; sourceTree = "<group>"; };
 		D283F632042B01C0F103E9CBD9D8D93A /* GQTPointQuadTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTree.h; path = src/QuadTree/GQTPointQuadTree.h; sourceTree = "<group>"; };
 		D42A0D11F4F720A05E2E8C015962DAB3 /* GMUClusterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUClusterRenderer.h; path = src/Clustering/View/GMUClusterRenderer.h; sourceTree = "<group>"; };
@@ -355,7 +317,6 @@
 		D62B9053C5FDC4664702F785B08ECBDE /* GMUPolygon 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUPolygon 2.m"; path = "src/Geometry/Model/GMUPolygon 2.m"; sourceTree = "<group>"; };
 		D7DC647A645F9E748E4D0D43256E1CD6 /* GMUFeature 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUFeature 2.m"; path = "src/Geometry/Model/GMUFeature 2.m"; sourceTree = "<group>"; };
 		DC06C2370FAD24D3CF23A6C576641B31 /* GMUGeoJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGeoJSONParser.h; path = src/Geometry/GMUGeoJSONParser.h; sourceTree = "<group>"; };
-		DC082E41E5E879796A1CE58ED7781196 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		DC2DB60204FFBF19E48AC5AFF7346A01 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		DD07122DA7D27B595D80A7BCE882BBCA /* Pods-fa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fa-dummy.m"; sourceTree = "<group>"; };
 		DF6809FF4C41F068C19E10F5D4A71932 /* GMUClusterManager+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUClusterManager+Testing.h"; path = "src/Clustering/GMUClusterManager+Testing.h"; sourceTree = "<group>"; };
@@ -364,7 +325,6 @@
 		E45CEB218207233AAFC5972DFAE7D145 /* GMUStyle 2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMUStyle 2.h"; path = "src/Geometry/Model/GMUStyle 2.h"; sourceTree = "<group>"; };
 		E51ED3B02660BC2F272EE762CC27F738 /* GMUGeometryCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGeometryCollection.h; path = src/Geometry/Model/GMUGeometryCollection.h; sourceTree = "<group>"; };
 		E6BABB0CC618678C71EE3F7C3ADE135A /* DSBarChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSBarChart.release.xcconfig; sourceTree = "<group>"; };
-		E80EA200AF761BE80FFD4F0954D9DC48 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		EA67BD94D18733114ECD5AC552EC8FE3 /* GMUPair 2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMUPair 2.m"; path = "src/Geometry/Model/GMUPair 2.m"; sourceTree = "<group>"; };
 		EA722E3B1C5192AA05145308C9D4052F /* GMUGridBasedClusterAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUGridBasedClusterAlgorithm.h; path = src/Clustering/Algo/GMUGridBasedClusterAlgorithm.h; sourceTree = "<group>"; };
 		EB9CCE4ABC9649FC3F443B385FD33B79 /* GMUHeatmapTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMUHeatmapTileLayer.h; path = src/Heatmap/GMUHeatmapTileLayer.h; sourceTree = "<group>"; };
@@ -538,7 +498,6 @@
 				3AF32FEE9E746F83304F1B11924B7278 /* Security */,
 				F504C23E4AAC86F14E5FC9D3C5E7B64A /* Serialization */,
 				13AF54DF807BED453DAF9D82789ED8F3 /* Support Files */,
-				644CAF8C24E9328456128E5064A29430 /* UIKit */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -602,33 +561,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DSBarChart";
-			sourceTree = "<group>";
-		};
-		644CAF8C24E9328456128E5064A29430 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				DC082E41E5E879796A1CE58ED7781196 /* AFAutoPurgingImageCache.h */,
-				A25EEA7B4645583D905D5CC855A811CB /* AFAutoPurgingImageCache.m */,
-				82824D8FFFE0A5A85620EEB519ABB202 /* AFImageDownloader.h */,
-				3E87F8BD56F8CD7B4A19FC6842578EBC /* AFImageDownloader.m */,
-				566D428F019289AF7FB9198F31FE32A4 /* AFNetworkActivityIndicatorManager.h */,
-				6DFF595D58206C7A98159E28AA2183C7 /* AFNetworkActivityIndicatorManager.m */,
-				95DE8CDB81D19F709E4BE33A2447DCB6 /* UIActivityIndicatorView+AFNetworking.h */,
-				D1A1729F26231EC0254CA444EB661743 /* UIActivityIndicatorView+AFNetworking.m */,
-				C0C8570D458C053431E22A409EC28E59 /* UIButton+AFNetworking.h */,
-				93CDC65D57BACC7A7023CC0D1C407A5C /* UIButton+AFNetworking.m */,
-				601BF573B27A47EE1CE4226C1A54F0B6 /* UIImage+AFNetworking.h */,
-				E80EA200AF761BE80FFD4F0954D9DC48 /* UIImageView+AFNetworking.h */,
-				8C1688DE6C42BE62A41A315BE9B86880 /* UIImageView+AFNetworking.m */,
-				6B1AD0C2AD494152904898F2E9016258 /* UIKit+AFNetworking.h */,
-				51E0D8FB35136C16651736638C9BDDA2 /* UIProgressView+AFNetworking.h */,
-				C8AEA3FA8801074B3CB89B4E78473429 /* UIProgressView+AFNetworking.m */,
-				26F7C4C33E1661935B9B13F1A1D6B089 /* UIRefreshControl+AFNetworking.h */,
-				844404E3F22F54A4D4392E170285A099 /* UIRefreshControl+AFNetworking.m */,
-				46C44D8BB78410D6803FB01D2197E5C4 /* UIWebView+AFNetworking.h */,
-				08B7101B5C06F6B9C28C6860F221E1A9 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
 			sourceTree = "<group>";
 		};
 		80657800B716A92C570EA0E9D6BC7870 /* Heatmap */ = {
@@ -820,25 +752,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06F61A759022A62864BD9F8EE3660F3 /* AFAutoPurgingImageCache.h in Headers */,
 				0343B86E9B9F5619970FCBD7370E033A /* AFCompatibilityMacros.h in Headers */,
 				D280A3B13923FF5FA778EF312BD965F7 /* AFHTTPSessionManager.h in Headers */,
-				6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */,
-				FEAA3C60F4BDDAC22BD1A6B047DBAAE9 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				5FF1B4EEDEE8BCA2E676E2548A412B02 /* AFNetworking.h in Headers */,
 				1102564C9CDAC18DF8D6DB20F6523E72 /* AFNetworkReachabilityManager.h in Headers */,
 				B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */,
 				D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */,
 				9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */,
 				05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */,
-				418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */,
-				B27878E3B8F8ADB1FE01DBD6CB5812E7 /* UIImage+AFNetworking.h in Headers */,
-				F9AD2CFBEDD600706B921428D25DFA3A /* UIImageView+AFNetworking.h in Headers */,
-				C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */,
-				D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */,
-				A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */,
-				337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,22 +963,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */,
 				8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */,
-				10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */,
-				1F66F73B61BEA115076A9CF7DD463832 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */,
 				3801A443834985F278FE479B54319B4F /* AFNetworkReachabilityManager.m in Sources */,
 				1EA1235398DAC98440B2EFBE43839FD1 /* AFSecurityPolicy.m in Sources */,
 				72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */,
 				2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */,
 				E7351E56F4C49CE1F9559D5C69ECC1ED /* AFURLSessionManager.m in Sources */,
-				551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */,
-				40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */,
-				894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */,
-				304FB2F3CB19F5C44D812D90AA2F1121 /* UIRefreshControl+AFNetworking.m in Sources */,
-				5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

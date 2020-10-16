@@ -322,7 +322,7 @@
                   offsetFromSymbolStart = "528">
                </Location>
                <Location
-                  uuid = "9D9F4938-9CC2-41D2-B001-1A826947801F - 1102e3e1ff2ccaac"
+                  uuid = "9D9F4938-9CC2-41D2-B001-1A826947801F - 1102e3e1ff2cca4b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -332,8 +332,8 @@
                   urlString = "file:///Users/flythe/Documents/GoPPlus-Driver082020/app/fa/fa/ProfileViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
                   offsetFromSymbolStart = "88">
                </Location>
             </Locations>
