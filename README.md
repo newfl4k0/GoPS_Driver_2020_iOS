@@ -1,13 +1,14 @@
 # Nat-GoPPlusDriver-iOS
 
-Native iOS GoPPlus Driver App
+Native iOS GoPPlus Driver App MMXX
 
 - iOS 9.3+ 
 - Push
 - Cambios Dic 2019 - Sept 2020 (Google Directions + iOS14)
 - iOS 14.0
 - Path Tarjeta de Crédito - Banorte
-- Oct 2020 v.76
+- Path Efectivo
+- Oct 2020 MMXX
 
 # Guía de Instalación
 
