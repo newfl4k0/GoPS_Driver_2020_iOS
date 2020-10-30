@@ -31,7 +31,7 @@
     self.payworksUrl = @"https://gopplusp.azurewebsites.net/";
     self.isAlertOpen = NO;
 
-    [GMSServices provideAPIKey:@"AIzaSyAnLqd2gzuXQxq_msNZSDAHxn7PTNN7b7Q"];
+    [GMSServices provideAPIKey:@"AIzaSyBHLzjH7LEnHdjUlTaRrDBpLjOIsyqTTIs"];
     //Push notifications
     [self registerForRemoteNotifications];
     return YES;
