@@ -3,7 +3,7 @@
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -86,7 +86,7 @@
                                     <constraint firstItem="Tof-0F-qcg" firstAttribute="centerY" secondItem="P22-Sk-ml2" secondAttribute="centerY" id="WgL-Kb-OD0"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gopplus" translatesAutoresizingMaskIntoConstraints="NO" id="Njk-UE-ZJS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logodriver" translatesAutoresizingMaskIntoConstraints="NO" id="Njk-UE-ZJS">
                                 <rect key="frame" x="177" y="43" width="60" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="7pE-Ee-Skq"/>
@@ -1682,22 +1682,22 @@
                                             <constraint firstAttribute="height" constant="85" id="FFn-JD-qwH"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gopplus" translatesAutoresizingMaskIntoConstraints="NO" id="LgT-gh-9UL">
-                                        <rect key="frame" x="172" y="35" width="70" height="50"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logodriver" translatesAutoresizingMaskIntoConstraints="NO" id="LgT-gh-9UL">
+                                        <rect key="frame" x="172" y="32" width="70" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="6Y1-2D-yub"/>
                                             <constraint firstAttribute="width" constant="70" id="keV-kE-w7m"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bglogintop" translatesAutoresizingMaskIntoConstraints="NO" id="FiI-ar-G21">
-                                        <rect key="frame" x="157" y="101" width="100" height="100"/>
+                                    <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bglogintop" translatesAutoresizingMaskIntoConstraints="NO" id="FiI-ar-G21">
+                                        <rect key="frame" x="-0.40000000000009095" y="113" width="413.99999999999989" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="CXV-rR-YHu"/>
                                             <constraint firstAttribute="width" constant="100" id="i3Z-Wk-KMi"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Usuario" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="pTN-MJ-Lhp">
-                                        <rect key="frame" x="16" y="233" width="382" height="44"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Usuario" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="pTN-MJ-Lhp">
+                                        <rect key="frame" x="0.0" y="233" width="414" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="TfL-fp-mLG"/>
@@ -1705,19 +1705,22 @@
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" textContentType="name"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TA4-AO-ddl">
-                                        <rect key="frame" x="16" y="285" width="382" height="44"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TA4-AO-ddl">
+                                        <rect key="frame" x="0.0" y="285" width="414" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNd-kK-1xT">
-                                        <rect key="frame" x="16" y="337" width="382" height="44"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNd-kK-1xT">
+                                        <rect key="frame" x="109" y="333" width="197" height="44"/>
                                         <color key="backgroundColor" red="0.32925468683242798" green="0.33329850435256958" blue="0.33741617202758789" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="Iniciar Sesión">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="doVerifyCredentials:" destination="fnV-Tp-qmf" eventType="touchUpInside" id="cLD-LY-hIa"/>
                                         </connections>
@@ -1778,7 +1781,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6xa-0K-QoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323.75" y="-638.75"/>
+            <point key="canvasLocation" x="1323.1884057971015" y="-638.83928571428567"/>
         </scene>
         <!--Left View Controller-->
         <scene sceneID="Rsr-wU-gId">
@@ -1880,7 +1883,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-configuracion" translatesAutoresizingMaskIntoConstraints="NO" id="VFG-Yb-Dz7">
                                 <rect key="frame" x="8" y="367.33333333333331" width="40" height="40"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Versión 1.0.73 (73) TEST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMl-FR-9fl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Versión 1.0.80 (80) TEST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMl-FR-9fl">
                                 <rect key="frame" x="140.66666666666666" y="837" width="132.99999999999997" height="17"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                 <nil key="textColor"/>
@@ -1958,7 +1961,7 @@
         <image name="bglogintop" width="654" height="653"/>
         <image name="bgnavbar" width="750" height="154"/>
         <image name="chat" width="47" height="43"/>
-        <image name="gopplus" width="284" height="206"/>
+        <image name="logodriver" width="454" height="340"/>
         <image name="menu" width="58" height="45"/>
         <image name="menu-chat" width="117" height="112"/>
         <image name="menu-configuracion" width="109" height="107"/>
