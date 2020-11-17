@@ -10,7 +10,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSAddress.h>
+#import "GMSAddress.h"
 
 @class GMSReverseGeocodeResponse;
 

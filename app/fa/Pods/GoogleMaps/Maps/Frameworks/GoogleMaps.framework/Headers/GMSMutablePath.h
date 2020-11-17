@@ -11,7 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>
 
-#import <GoogleMaps/GMSPath.h>
+#import "GMSPath.h"
 
 /**
  * GMSMutablePath is a dynamic (resizable) array of CLLocationCoordinate2D. All coordinates must be

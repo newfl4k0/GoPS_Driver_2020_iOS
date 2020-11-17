@@ -8,7 +8,7 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#import <GoogleMaps/GMSTileLayer.h>
+#import "GMSTileLayer.h"
 
 @class NSURL;
 

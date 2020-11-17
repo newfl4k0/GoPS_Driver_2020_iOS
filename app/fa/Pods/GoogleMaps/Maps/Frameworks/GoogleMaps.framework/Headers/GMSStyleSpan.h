@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSStrokeStyle.h>
+#import "GMSStrokeStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 /** Describes the style for some region of a polyline. */

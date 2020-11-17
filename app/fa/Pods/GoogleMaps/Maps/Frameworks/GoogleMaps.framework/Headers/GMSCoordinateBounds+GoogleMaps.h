@@ -14,7 +14,7 @@
 #else
 #import <GoogleMapsBase/GoogleMapsBase.h>
 #endif
-#import <GoogleMaps/GMSProjection.h>
+#import "GMSProjection.h"
 
 @class GMSPath;
 

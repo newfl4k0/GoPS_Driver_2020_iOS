@@ -15,7 +15,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSPath.h>
+#import "GMSPath.h"
 
 @class GMSPath;
 @class GMSStrokeStyle;

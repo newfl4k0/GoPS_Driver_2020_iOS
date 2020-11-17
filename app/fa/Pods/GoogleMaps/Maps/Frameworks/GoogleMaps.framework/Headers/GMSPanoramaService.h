@@ -10,7 +10,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSPanoramaSource.h>
+#import "GMSPanoramaSource.h"
 
 @class GMSPanorama;
 

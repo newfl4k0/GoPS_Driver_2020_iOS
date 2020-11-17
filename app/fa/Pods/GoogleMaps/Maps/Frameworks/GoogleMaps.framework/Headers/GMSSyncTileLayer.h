@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <GoogleMaps/GMSTileLayer.h>
+#import "GMSTileLayer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

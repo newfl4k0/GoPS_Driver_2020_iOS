@@ -10,8 +10,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOverlay.h>
-#import <GoogleMaps/GMSStyleSpan.h>
+#import "GMSOverlay.h"
+#import "GMSStyleSpan.h"
 
 @class GMSPath;
 

@@ -11,9 +11,9 @@
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOrientation.h>
-#import <GoogleMaps/GMSPanoramaLayer.h>
-#import <GoogleMaps/GMSPanoramaSource.h>
+#import "GMSOrientation.h"
+#import "GMSPanoramaLayer.h"
+#import "GMSPanoramaSource.h"
 
 @class GMSMarker;
 @class GMSPanorama;

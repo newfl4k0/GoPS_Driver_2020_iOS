@@ -27,6 +27,26 @@
     [self.table setDataSource:self];
     [self.spinner stopAnimating];
     [self setTableData];
+
+    [self.spinner startAnimating];
+    
+    [self.app.manager GET:[self.app.serverUrl stringByAppendingString:@"vc-services"] parameters:@{@"vc_id": [self.app.dataLibrary getString:@"vehicle_driver_id"]} progress:nil
+                  success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                      [self.spinner stopAnimating];
+                      
+                      if ([[responseObject objectForKey:@"data"] count]>0) {
+                          [self.app.dataLibrary saveArray:[responseObject objectForKey:@"data"] :@"vc-services"];
+                         // [self showAlert:@"Historial" :@"Servicios Actualizados"];
+                      } else {
+                          [self.app.dataLibrary deleteKey:@"vc-services"];
+                      }
+                      
+                      [self setTableData];
+                  } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                      [self.spinner stopAnimating];
+                      [self showAlert:@"Historial" :@"Error: servicio no disponible. Intenta nuevamente."];
+                  }];
+    
 }
 
 - (void)setTableData {
@@ -71,6 +91,7 @@
                       [self.spinner stopAnimating];
                       [self showAlert:@"Historial" :@"Error: servicio no disponible. Intenta nuevamente."];
                   }];
+    
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -132,5 +153,7 @@
 - (void)dissmissAlert:(UIAlertController *) alert{
     [alert dismissViewControllerAnimated:true completion:nil];
 }
+
+
 
 @end

@@ -129,12 +129,15 @@
                                self.confirmPassText.text = @"";
                                self.currentPassText.text = @"";
                            }
-                       } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                       }
+                       failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                            
-                           [self.spinner stopAnimating];
+                          [self.spinner stopAnimating];
                            [self showAlert:@"GoPPlus Driver" :@"Error al actualizar. Intenta nuevamente"];
                        }];
+                        
     }
+
 }
 
 - (IBAction)quitSegue:(id)sender {

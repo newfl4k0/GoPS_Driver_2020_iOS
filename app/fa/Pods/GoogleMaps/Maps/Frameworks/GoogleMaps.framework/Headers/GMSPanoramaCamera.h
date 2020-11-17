@@ -10,7 +10,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSOrientation.h>
+#import "GMSOrientation.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

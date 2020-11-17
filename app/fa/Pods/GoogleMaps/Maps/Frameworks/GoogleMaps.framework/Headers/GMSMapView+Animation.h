@@ -8,7 +8,7 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#import <GoogleMaps/GMSMapView.h>
+#import "GMSMapView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

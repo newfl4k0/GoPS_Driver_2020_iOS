@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOverlay.h>
+#import "GMSOverlay.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

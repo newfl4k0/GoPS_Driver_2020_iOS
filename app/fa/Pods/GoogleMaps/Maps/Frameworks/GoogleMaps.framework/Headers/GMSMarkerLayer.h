@@ -11,7 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import <GoogleMaps/GMSOverlayLayer.h>
+#import "GMSOverlayLayer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
